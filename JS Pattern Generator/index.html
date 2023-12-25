@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script/square.js" defer></script>
+  <script src="script/triangle.js" defer></script>
+  <script src="script/downTriangle.js" defer></script>
+ 
+  <title>JS Pattern Generator</title>
+   
+</head>
+<body>
+
+  <div class="button-container">
+      <button id="myButton">Generate Square</button>
+      <button onclick="showTriangle(); showTriangleCode()">Generate Triangle</button>
+      <button onclick="showDownTri(); showDownTriCode()">Generate Downward Triangle</button>
+  </div>
+
+
+  <div class="h-container">
+    <h2>Pattern</h2>
+    <h2>Code</h2>
+  </div>
+
+  <div class="div-container">
+   
+    <div class="div-class" id="myDiv"></div>
+
+    <div class="div-class" id="showCode"></div>
+  </div>
+ 
+</body>
+</html>
