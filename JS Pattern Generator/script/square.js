@@ -10,7 +10,11 @@ function changeContent() {
 }
 
 function showSquareCode(){
-  _div.innerText = ` let n = 5; 
+  _div.innerText =
+`{
+function drawSquare(){
+
+  let n = 5; 
   
   let string = "";
 
@@ -18,11 +22,12 @@ function showSquareCode(){
     for(let j = 0; j < n; j++) { 
       string += "*";
     }
-    
     string += "\n";
+  } 
+    return(string);
   }
-  
-    return(string);`
+    drawSquare()
+}`
 }
 
 function generateSquare(){

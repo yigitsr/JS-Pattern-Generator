@@ -8,7 +8,7 @@ function showDownDiaCode(){
 
 function returnCodeDia(){
     return `{
-    function draw() { 
+    function drawDiamond() { 
         var n = 5;
         var result = "";
         // Upside pyramid
@@ -37,7 +37,7 @@ function returnCodeDia(){
         }
         return result;
     }
-    draw();
+    drawDiamond();
 }`
 }
 

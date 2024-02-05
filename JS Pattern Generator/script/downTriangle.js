@@ -3,7 +3,11 @@ function showDownTri(){
 }
 
 function showDownTriCode(){
-  document.getElementById('showCode').innerText = `let n = 5;
+  document.getElementById('showCode').innerText = 
+  `
+  {
+function drawDownTriangle() {
+  let n = 5;
   let string = "";
   for (let i = 0; i < n; i++) {
     // printing star
@@ -12,7 +16,10 @@ function showDownTriCode(){
     }
     string += "\n";
   }
-  return(string);`
+  return(string);
+}
+  drawDownTriangle()
+}`
 }
 
 function generateDownTri(){
